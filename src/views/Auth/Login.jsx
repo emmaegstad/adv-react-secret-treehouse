@@ -21,7 +21,7 @@ export default function Login() {
 
     loginWasSuccessful
       ? history.replace(from)
-      : alert('Login unsuccessful. Please try again.');
+      : setError('Login unsuccessful. Please try again.');
   };
 
   return (
